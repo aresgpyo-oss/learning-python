@@ -1,4 +1,6 @@
-name = input();
-card_id = input();
-print(f"Member: {name}");
-print("Card " + card_id + " belongs to " + name + "." )
+width = input();
+height = input();
+area = int(width) * int(height);
+perimeter = 2 * (int(width) + int(height));
+print(area);
+print(perimeter);
