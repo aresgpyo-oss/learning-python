@@ -1,9 +1,7 @@
-decimal_number = int(input());
-whole_number = float(input());
+code = input();
+amount = int(input());
 
-
-sum_decimal = float(whole_number + decimal_number);
-sum_chopped = int(sum_decimal);
-print(sum_decimal);
-print(sum_chopped);
-print(str(decimal_number) + " + " + str(whole_number) + " = " + str(sum_decimal));
+print(code == "GOLD");
+print("X" in code);
+print(amount >= 50 and amount <= 200);
+print(code == "GOLD" or not (amount >= 50 and amount <= 200));
